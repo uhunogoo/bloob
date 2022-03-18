@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+:root {
+    --lightColor: rgba(0, 0, 0, 0.1);
+    --darkColor: rgba(0, 0, 0, 1);
+}
+
+body,
+html {
+	height: 100%;
+	width: 100vw;
+	overscroll-behavior: none;
+	overflow: hidden;
+}
+#viewport {
+	position: fixed;
+	overflow-y: scroll;
+    min-height: 100px;
+	height: 100vh;
+	width: 100%;
+	-webkit-overscroll-behavior: none;
+	overscroll-behavior: none;
+	-webkit-overflow-scrolling: touch;
+    scrollbar-width: tin;
+    scrollbar-color: dark/*fancy colors for Firefox*/
+}
+
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html
+{
+    font-size: 16px;
+}
+body { 
+    background: #000;
+    color: #ffffff;
+}
+.webgl
+{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
